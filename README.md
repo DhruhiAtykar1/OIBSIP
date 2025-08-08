@@ -17,11 +17,11 @@ nmap -sV 192.168.0.192 > nmap_scan_results.txt
 # Host is up (0.00087s latency).
 # Not shown: 996 closed tcp ports (reset)
 
-| PORT    | STATE | SERVICE       | VERSION                             |
-| 135/tcp | open  | msrpc         | Microsoft Windows RPC               |
-| 139/tcp | open  | netbios-ssn   | Microsoft Windows netbios-ssn       |
-| 445/tcp | open  | microsoft-ds? |                                     |
-| 3306/tcp| open  | mysql         | MySQL (unauthorized)                |
+# | PORT    | STATE | SERVICE       | VERSION                             |
+# | 135/tcp | open  | msrpc         | Microsoft Windows RPC               |
+# | 139/tcp | open  | netbios-ssn   | Microsoft Windows netbios-ssn       |
+# | 445/tcp | open  | microsoft-ds? |                                     |
+# | 3306/tcp| open  | mysql         | MySQL (unauthorized)                |
 # Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 # Conclusion
