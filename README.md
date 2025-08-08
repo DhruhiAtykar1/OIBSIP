@@ -23,5 +23,11 @@ PORT     STATE SERVICE       VERSION
 3306/tcp open  mysql         MySQL (unauthorized)
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
+| PORT    | STATE | SERVICE       | VERSION                             |
+| 135/tcp | open  | msrpc         | Microsoft Windows RPC               |
+| 139/tcp | open  | netbios-ssn   | Microsoft Windows netbios-ssn       |
+| 445/tcp | open  | microsoft-ds? |                                     |
+| 3306/tcp| open  | mysql         | MySQL (unauthorized)                |
+
 # Conclusion
 The scan identified many open ports that are critical for network services and hence knowing these open ports helps in assessing security risks.
