@@ -13,9 +13,9 @@ nmap -sV 192.168.0.192 > nmap_scan_results.txt
 4. Took screenshots of the output and analysed it. 
 
 # Analysis:
-# Nmap scan report for IP (192.168.0.192)
-# Host is up (0.00087s latency).
-# Not shown: 996 closed tcp ports (reset)
+Nmap scan report for IP (192.168.0.192)
+Host is up (0.00087s latency).
+Not shown: 996 closed tcp ports (reset)
 
 # | PORT    | STATE | SERVICE       | VERSION                             |
 # | 135/tcp | open  | msrpc         | Microsoft Windows RPC               |
